@@ -1,0 +1,16 @@
+.quem-somos{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(199, 199, 199, 0.484);
+    text-align: center;
+}
+.quem-somos h2{
+    font-size: 26px;
+    padding: 40px;
+}
+.quem-somos p{
+    padding: 15px 20px 90px 20px;
+    text-align: justify;
+    font-size: 18px;
+}

@@ -1,0 +1,101 @@
+.secao-produtos{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-produtos{
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 17px;
+}
+.texto-produtos h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+}
+.texto-produtos p{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.secao-fotos-oculos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box-oculos{
+    width: 45%;
+    height: 300px;
+    background-color: rgba(230, 230, 230, 0.29);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.box-oculos img{
+    width: 300px;
+    height: 150px;
+}
+.box-oculos h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.box-oculos p{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.garantia-oculos{
+    padding-top: 50px;
+    text-align: center;
+    margin: 50px auto;
+}
+.garantia-oculos p{
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+.garantia-oculos-lista li{
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+    margin: 10px auto;
+}
+@media(max-width: 1000px){
+    .box-oculos{
+        width: 35%;
+    }
+    .box-oculos img{
+        width: 200px;
+        height: 100px;
+    }
+}
+@media(max-width: 768px){
+    .secao-fotos-oculos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box-oculos{
+        width: 80%;
+    }
+    .box-oculos img{
+        width: 250px;
+        height: 100px;
+    }
+}
+@media(max-width: 468px){
+    .box-oculos img{
+        width: 200px;
+        height: 90px;
+    }
+}
